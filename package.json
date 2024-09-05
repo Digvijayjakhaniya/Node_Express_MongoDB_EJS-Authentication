@@ -1,9 +1,9 @@
 {
   "name": "login",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon index"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^5.0.0-beta.3",
     "mongoose": "^8.4.0"
